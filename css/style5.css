@@ -1,0 +1,159 @@
+body
+{
+  font-family: "Montserrat";
+  color: #fff;
+    background-image: url("img_tree.gif"), url("paper.gif");
+}
+#title
+{
+background-color:#967E76;
+color: black;
+}
+.container-fluid
+{
+padding: 1% 9%;
+}
+.navbar
+{
+padding: 0 0 3rem;
+}
+.navbar-brand
+{
+font-family: "Ubuntu";
+font-size: 3rem;
+font-weight: bold;
+}
+.nav-item
+{
+padding:0 18px;
+}
+.nav-link
+{
+font-size: 2rem;
+font-family: "Montserrat-light";
+}
+#bhagat
+{
+
+background-color:white;
+text-align: center;
+
+}
+h1:hover
+{
+color:orange;
+}
+h2
+{
+font-family: "Montserrat-bold";
+font-size: 3rem;
+line-height: 1;
+}
+.heading
+{
+font-size: 4rem;
+font-family: "Montserrat bold";
+padding:1% 8%;
+color:black;
+}
+.bb
+{
+size:4rem;
+}
+.about
+{
+color: black;
+font-size: 2rem;
+margin-left: 638px;
+position: relative;
+
+font-family:"Helvetica" ;
+padding-left: 3px;
+padding-right: 42px;
+
+
+  /* -webkit-filter: blur(px); */
+}
+.about:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-image: url("https://img.freepik.com/free-vector/decorative-tricolor-indian-flag-theme-texture_1055-7757.jpg?w=2000");
+background-repeat: no-repeat;
+opacity: 0.4;
+filter:blur(15px);
+z-index:0;
+}
+.about p{
+position: relative;
+z-index: 1;
+}
+
+
+.paragraph{
+text-align: justify;
+/*background-image: url("https://img.freepik.com/free-vector/decorative-tricolor-indian-flag-theme-texture_1055-7757.jpg?w=2000");
+*/
+
+}
+
+.inner
+{
+width: 100%;
+height: 40%;
+text-align: center;
+}
+.bg-image {
+-webkit-filter: blur(0px);
+height:40%;
+background-repeat: no-repeat;
+width: 23%;
+position: absolute;
+left: 7px;
+padding-right: 10px;
+padding-left: 10px;
+}
+#testimonial
+{
+font-style: italic;
+padding: 2% 15%;
+text-align: center;
+margin-top:4%;
+background-color:#967E76;
+
+
+color:#fff;
+}
+.testimonial-image
+{
+width: 17%;
+border-radius: 100%;
+margin: 20px;
+}
+.description{
+  position: absolute;
+    left: 45px;
+    top: 800px;
+    width: 22%;
+    /* height: fit-content; */
+    padding: 10px 16px;
+}
+.desc_table{
+  width: 100%;
+    height: 100%;
+    color: black;
+    font-family:"Helvetica" ;
+    font-size: 24px;
+    text-align: justify;
+}
+table,th,td{
+  border: 2px solid;
+}
+.desc_td{
+  padding:60px 40px;
+  font-weight:bold;
+  text-transform: uppercase;
+}
